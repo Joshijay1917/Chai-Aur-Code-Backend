@@ -1,0 +1,22 @@
+{
+  "name": "connectdb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+  },
+  "keywords": [
+    "ConnectDB"
+  ],
+  "author": "Joshi Jay",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.17.1"
+  }
+}
